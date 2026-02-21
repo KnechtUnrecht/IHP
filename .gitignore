@@ -1,0 +1,39 @@
+# Build output
+build/
+out/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.sln.docstates
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Compiled
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.dll
+*.exp
+
+# Windows reserved names
+nul
+
+# ImGui config (disabled at runtime)
+imgui.ini
+
+# duplicate signature file (real one is in data/)
+/signatures.json
